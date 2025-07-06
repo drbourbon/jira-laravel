@@ -5,20 +5,10 @@ declare(strict_types=1);
 namespace Jira\Laravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Jira\Resources\Attachments;
-use Jira\Resources\Customers;
-use Jira\Resources\Groups;
-use Jira\Resources\Issues;
-use Jira\Resources\Requests;
-use Jira\Resources\Users;
+use Jira\Client;
 
 /**
- * @method static Attachments attachments()
- * @method static Customers customers()
- * @method static Groups groups()
- * @method static Issues issues()
- * @method static Requests requests()
- * @method static Users users()
+ * @see Client
  */
 class Jira extends Facade
 {
