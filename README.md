@@ -66,7 +66,7 @@ Thank you for considering contributing to the Jira PHP for Laravel! The contribu
 
 ## Security Vulnerabilities
 
-If you discover any security-related issues, please email moath.alhajrii@gmail.com instead of using the issue tracker.
+If you discover any security-related issues, please email hey@moath.dev instead of using the issue tracker.
 
 ## License
 
