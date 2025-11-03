@@ -62,7 +62,7 @@
         "my-jira-php": {
             "type": "vcs",
             "url": "https://github.com/drbourbon/jira-php"
-        },
+        }
     },
     "scripts": {
         "lint": "pint --preset laravel -v --ansi",
