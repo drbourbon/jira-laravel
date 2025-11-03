@@ -20,7 +20,7 @@
     "require": {
         "php": "^8.1.0",
         "laravel/framework": "^9.0|^10.48.29|^11.0|^12.0",
-        "devmoath/jira-php": "0.*"
+        "drbourbon/jira-php": "0.*"
     },
     "require-dev": {
         "laravel/pint": "^1.2.0",
@@ -58,6 +58,12 @@
             ]
         }
     },
+    "repositories": {
+        "my-jira-php": {
+            "type": "vcs",
+            "url": "https://github.com/drbourbon/jira-php"
+        }
+    },    
     "scripts": {
         "lint": "pint --preset laravel -v --ansi",
         "test:lint": "pint --preset laravel --test -v --ansi",
