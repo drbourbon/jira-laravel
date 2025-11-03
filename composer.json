@@ -1,5 +1,5 @@
 {
-    "name": "devmoath/jira-laravel",
+    "name": "drbourbon/jira-laravel",
     "description": "Jira PHP for Laravel is a supercharged PHP API client that allows you to interact with the Jira API and the Service Desk API",
     "keywords": [
         "laravel",
